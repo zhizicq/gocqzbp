@@ -19,8 +19,12 @@ import (
 	//                      vvvvvvv高优先级区vvvvvvv                      //
 	//                          vvvvvvvvvvvvvv                          //
 	//                               vvvv                               //
+
+
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/antiabuse" // 违禁词
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/chat"      // 基础词库
+
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/chat" // 基础词库
+
 
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/sleep_manage" // 统计睡眠时间
 
@@ -52,16 +56,20 @@ import (
 
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ahsai"         // ahsai tts
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ai_false"      // 服务器监控
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/aipaint"       // ai绘图
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/aiwife"        // 随机老婆
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/alipayvoice"   // 支付宝到账语音
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/b14"           // base16384加解密
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/baidu"         // 百度一下
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/base64gua"     // base64卦加解密
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/baseamasiro"   // base天城文加解密
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/bilibili"      // b站相关
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/book_review"   // 哀伤雪刃吧推书记录
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/breakrepeat"   // 打断复读
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/cangtoushi"    // 藏头诗
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/char_reverser" // 英文字符翻转
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/choose"        // 选择困难症帮手
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/chouxianghua"  // 说抽象话
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/chrev"         // 英文字符翻转
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/coser"         // 三次元小姐姐
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/cpstory"       // cp短打
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/danbooru"      // DeepDanbooru二次元图标签识别
@@ -69,6 +77,7 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/drift_bottle"  // 漂流瓶
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/emojimix"      // 合成emoji
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/epidemic"      // 城市疫情查询
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/event"         // 好友申请群聊邀请事件处理
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/font"          // 渲染任意文字到图片
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/fortune"       // 运势
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/funny"         // 笑话
@@ -76,11 +85,14 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/gif"           // 制图
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/github"        // 搜索GitHub仓库
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/guessmusic"    // 猜歌
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/heisi"         // 黑丝
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/hs"            // 炉石
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/hyaku"         // 百人一首
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/image_finder"  // 关键字搜图
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/inject"        // 注入指令
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/jandan"        // 煎蛋网无聊图
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/jikipedia"     // 小鸡词典
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/jptingroom"    // 日语听力学习材料
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/juejuezi"      // 绝绝子生成器
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/lolicon"       // lolicon 随机图片
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/midicreate"    // 简易midi音乐制作
@@ -110,6 +122,7 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/translation"   // 翻译
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/vtb_quotation" // vtb语录
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/wangyiyun"     // 网易云音乐热评
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/wenxinAI"      // 百度文心AI画图
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/word_count"    // 聊天热词
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/wordle"        // 猜单词
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ymgal"         // 月幕galgame
@@ -137,6 +150,8 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/curse" // 骂人
 
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ai_reply" // 人工智能回复
+
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/breakrepeat" // 打断复读
 
 	//                               ^^^^                               //
 	//                          ^^^^^^^^^^^^^^                          //
