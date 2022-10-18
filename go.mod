@@ -3,9 +3,11 @@ module github.com/FloatTech/gocqzbp
 go 1.19
 
 require (
+
 	github.com/FloatTech/ZeroBot-Plugin v1.5.1
 	github.com/FloatTech/floatbox v0.0.0-20221011153549-68005767c531
 	github.com/FloatTech/zbputils v1.5.1-0.20221011154037-734498125e07
+
 	github.com/Mrs4s/go-cqhttp v1.0.0-rc2
 	github.com/sirupsen/logrus v1.9.0
 	github.com/tidwall/gjson v1.14.3
@@ -14,8 +16,10 @@ require (
 
 require (
 	github.com/Coloured-glaze/gg v1.3.4 // indirect
+
 	github.com/FloatTech/AnimeAPI v1.5.2-0.20221015060924-fe2f85a3cf45 // indirect
 	github.com/FloatTech/sqlite v0.5.0 // indirect
+
 	github.com/FloatTech/ttl v0.0.0-20220715042055-15612be72f5b // indirect
 	github.com/FloatTech/zbpctrl v1.5.2-0.20221011153929-4834c6911511 // indirect
 	github.com/Microsoft/go-winio v0.5.1 // indirect
@@ -32,7 +36,9 @@ require (
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
 	github.com/fumiama/ahsai v0.1.0 // indirect
 	github.com/fumiama/cron v1.3.0 // indirect
+
 	github.com/fumiama/go-base16384 v1.6.1 // indirect
+
 	github.com/fumiama/go-hide-param v0.1.4 // indirect
 	github.com/fumiama/go-registry v0.1.6 // indirect
 	github.com/fumiama/gofastTEA v0.0.10 // indirect
@@ -85,6 +91,7 @@ require (
 	github.com/yusufpapurcu/wmi v1.2.2 // indirect
 	gitlab.com/gomidi/midi/v2 v2.0.25 // indirect
 	golang.org/x/crypto v0.0.0-20211215153901-e495a2d5b3d3 // indirect
+
 	golang.org/x/exp v0.0.0-20220722155223-a9213eeb770e // indirect
 	golang.org/x/exp/shiny v0.0.0-20221004215720-b9f4876ce741 // indirect
 	golang.org/x/image v0.0.0-20220902085622-e7cb96979f69 // indirect
@@ -93,6 +100,7 @@ require (
 	golang.org/x/net v0.0.0-20220624214902-1bab6f366d9e // indirect
 	golang.org/x/sync v0.0.0-20220819030929-7fc1605a5dde // indirect
 	golang.org/x/sys v0.0.0-20220915200043-7b5979e65e41 // indirect
+
 	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211 // indirect
 	golang.org/x/text v0.3.7 // indirect
 	golang.org/x/time v0.0.0-20211116232009-f0f3c7e86c11 // indirect
