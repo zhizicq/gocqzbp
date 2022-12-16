@@ -3,10 +3,12 @@ module github.com/FloatTech/gocqzbp
 go 1.19
 
 require (
+
 	github.com/FloatTech/ZeroBot-Plugin v1.6.1-beta2
 	github.com/FloatTech/floatbox v0.0.0-20221210051813-4bd44af40c60
 	github.com/FloatTech/zbputils v1.6.1-0.20221212090658-d0de5338e354
 	github.com/Mrs4s/go-cqhttp v1.0.0-rc3
+
 	github.com/sirupsen/logrus v1.9.0
 	github.com/tidwall/gjson v1.14.4
 	github.com/wdvxdr1123/ZeroBot v1.6.6
@@ -15,9 +17,11 @@ require (
 require (
 	github.com/Baidu-AIP/golang-sdk v1.1.1 // indirect
 	github.com/Coloured-glaze/gg v1.3.4 // indirect
+
 	github.com/FloatTech/AnimeAPI v1.6.1-0.20221214084932-8c0223841d43 // indirect
 	github.com/FloatTech/rendercard v0.0.2-0.20221128165614-a41216d2422e // indirect
 	github.com/FloatTech/sqlite v1.5.7 // indirect
+
 	github.com/FloatTech/ttl v0.0.0-20220715042055-15612be72f5b // indirect
 	github.com/FloatTech/zbpctrl v1.5.3-0.20221210051848-740ab7bd6ec3 // indirect
 	github.com/Microsoft/go-winio v0.6.0 // indirect
@@ -33,7 +37,9 @@ require (
 	github.com/faiface/beep v1.1.0 // indirect
 	github.com/fumiama/ahsai v0.1.0 // indirect
 	github.com/fumiama/cron v1.3.0 // indirect
+
 	github.com/fumiama/go-base16384 v1.6.1 // indirect
+
 	github.com/fumiama/go-hide-param v0.1.4 // indirect
 	github.com/fumiama/go-registry v0.2.5-0.20221121111817-44b0846bdce6 // indirect
 	github.com/fumiama/go-simple-protobuf v0.1.0 // indirect
@@ -86,7 +92,9 @@ require (
 	github.com/wdvxdr1123/go-silk v0.0.0-20220304095002-f67345df09ea // indirect
 	github.com/yusufpapurcu/wmi v1.2.2 // indirect
 	gitlab.com/gomidi/midi/v2 v2.0.25 // indirect
+
 	golang.org/x/crypto v0.3.0 // indirect
+
 	golang.org/x/exp v0.0.0-20220722155223-a9213eeb770e // indirect
 	golang.org/x/exp/shiny v0.0.0-20221126150942-6ab00d035af9 // indirect
 	golang.org/x/image v0.1.0 // indirect
@@ -94,11 +102,13 @@ require (
 	golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4 // indirect
 	golang.org/x/net v0.2.0 // indirect
 	golang.org/x/sync v0.0.0-20220819030929-7fc1605a5dde // indirect
+
 	golang.org/x/sys v0.2.0 // indirect
 	golang.org/x/term v0.2.0 // indirect
 	golang.org/x/text v0.4.0 // indirect
 	golang.org/x/time v0.2.0 // indirect
 	golang.org/x/tools v0.1.12 // indirect
+
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	modernc.org/libc v1.21.5 // indirect
 	modernc.org/mathutil v1.5.0 // indirect
